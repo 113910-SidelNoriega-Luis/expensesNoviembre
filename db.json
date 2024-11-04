@@ -1,141 +1,139 @@
 {
-  "Expense": [
-    {
-      "period": {
-        "month": 11,
-        "year": 2024,
-        "period_id": 1
+  "Expense": {
+    "period": {
+      "month": 11,
+      "year": 2024,
+      "period_id": 1
+    },
+    "plots": [
+      {
+        "fines": [
+          {
+            "description": "Mascotas sueltas",
+            "amount": 1500
+          }
+        ],
+        "lot_id": 1,
+        "total_amount": 58800,
+        "ordinary_expense": {
+          "amount": 4300
+        },
+        "extraordinary_expense": {
+          "amount": 5000
+        },
+        "individual_charges": [
+          {
+            "description": "Servicio Variados",
+            "amount": 18000
+          },
+          {
+            "description": "Servicio Limpieza a Lotes",
+            "amount": 30000
+          }
+        ]
       },
-      "plots": [
-        {
-          "fines": [
-            {
-              "description": "Mascotas sueltas",
-              "amount": 1500
-            }
-          ],
-          "lot_id": 1,
-          "total_amount": 58800,
-          "ordinary_expense": {
-            "amount": 4300
-          },
-          "extraordinary_expense": {
-            "amount": 5000
-          },
-          "individual_charges": [
-            {
-              "description": "Servicio Variados",
-              "amount": 18000
-            },
-            {
-              "description": "Servicio Limpieza a Lotes",
-              "amount": 30000
-            }
-          ]
+      {
+        "fines": [],
+        "lot_id": 2,
+        "total_amount": 6775,
+        "ordinary_expense": {
+          "amount": 4300
         },
-        {
-          "fines": [],
-          "lot_id": 2,
-          "total_amount": 6775,
-          "ordinary_expense": {
-            "amount": 4300
-          },
-          "extraordinary_expense": {
-            "amount": 5000
-          },
-          "individual_charges": [
-            {
-              "description": "Compensación",
-              "amount": -500
-            },
-            {
-              "description": "Compensación",
-              "amount": -2000
-            },
-            {
-              "description": "Compensación",
-              "amount": -25
-            }
-          ]
+        "extraordinary_expense": {
+          "amount": 5000
         },
-        {
-          "fines": [
-            {
-              "description": "Disturbios",
-              "amount": 43
-            },
-            {
-              "description": "Mascotas sueltas",
-              "amount": 25000
-            },
-            {
-              "description": "Disturbios",
-              "amount": 5000
-            }
-          ],
-          "lot_id": 3,
-          "total_amount": 39300.6,
-          "ordinary_expense": {
-            "amount": 4300
+        "individual_charges": [
+          {
+            "description": "Compensación",
+            "amount": -500
           },
-          "extraordinary_expense": {
+          {
+            "description": "Compensación",
+            "amount": -2000
+          },
+          {
+            "description": "Compensación",
+            "amount": -25
+          }
+        ]
+      },
+      {
+        "fines": [
+          {
+            "description": "Disturbios",
+            "amount": 43
+          },
+          {
+            "description": "Mascotas sueltas",
+            "amount": 25000
+          },
+          {
+            "description": "Disturbios",
             "amount": 5000
-          },
-          "individual_charges": []
+          }
+        ],
+        "lot_id": 3,
+        "total_amount": 39300.6,
+        "ordinary_expense": {
+          "amount": 4300
         },
-        {
-          "fines": [
-            {
-              "description": "Exceso de velocidad",
-              "amount": 43
-            }
-          ],
-          "lot_id": 4,
-          "total_amount": 2700.75,
-          "ordinary_expense": {
-            "amount": 4300
-          },
-          "extraordinary_expense": {
-            "amount": 5000
-          },
-          "individual_charges": [
-            {
-              "description": "Compensación",
-              "amount": -7500
-            },
-            {
-              "description": "Servicio Variados",
-              "amount": 900
-            }
-          ]
+        "extraordinary_expense": {
+          "amount": 5000
         },
-        {
-          "fines": [
-            {
-              "description": "Ruidos fuertes",
-              "amount": 43
-            }
-          ],
-          "lot_id": 5,
-          "total_amount": -3699,
-          "ordinary_expense": {
-            "amount": 4300
+        "individual_charges": []
+      },
+      {
+        "fines": [
+          {
+            "description": "Exceso de velocidad",
+            "amount": 43
+          }
+        ],
+        "lot_id": 4,
+        "total_amount": 2700.75,
+        "ordinary_expense": {
+          "amount": 4300
+        },
+        "extraordinary_expense": {
+          "amount": 5000
+        },
+        "individual_charges": [
+          {
+            "description": "Compensación",
+            "amount": -7500
           },
-          "extraordinary_expense": {
-            "amount": 5000
+          {
+            "description": "Servicio Variados",
+            "amount": 900
+          }
+        ]
+      },
+      {
+        "fines": [
+          {
+            "description": "Ruidos fuertes",
+            "amount": 43
+          }
+        ],
+        "lot_id": 5,
+        "total_amount": -3699,
+        "ordinary_expense": {
+          "amount": 4300
+        },
+        "extraordinary_expense": {
+          "amount": 5000
+        },
+        "individual_charges": [
+          {
+            "description": "Servicio Limpieza a Lotes",
+            "amount": 2000
           },
-          "individual_charges": [
-            {
-              "description": "Servicio Limpieza a Lotes",
-              "amount": 2000
-            },
-            {
-              "description": "Compensación",
-              "amount": -15000
-            }
-          ]
-        }
-      ]
-    }
-  ]
+          {
+            "description": "Compensación",
+            "amount": -15000
+          }
+        ]
+      }
+    ]
+  }
 }
